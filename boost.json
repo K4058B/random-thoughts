@@ -1,0 +1,24 @@
+{
+    "agents": [
+        "cursor",
+        "copilot",
+        "claude_code",
+        "codex",
+        "opencode",
+        "amp",
+        "gemini",
+        "junie"
+    ],
+    "guidelines": true,
+    "mcp": true,
+    "nightwatch_mcp": false,
+    "packages": [
+        "statamic/cms",
+        "fruitcake/laravel-debugbar"
+    ],
+    "sail": false,
+    "skills": [
+        "laravel-best-practices",
+        "debug-using-debugbar"
+    ]
+}
