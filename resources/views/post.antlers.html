@@ -1,14 +1,14 @@
 <article class="contents">
     {{ partial:components/article-hero
-        title="Everything is better when donuts are involved"
-        description="Job interviews are painful. But with a pocketful of donuts they are never a waste of time. Hate waiting at the DMV? Try pounding a dozen donuts and splattering jelly all over form 90210. You're welcome."
-        date="15. April 2025"
+        :title="title"
+        :description="lead"
+        :date="date"
     }}
 
     <section>
         <div class="flex flex-col gap-10 md:gap-14 lg:gap-20">
             <div class="px-6 mx-auto max-w-7xl md:px-16">
-                <img src="/assets/donut.jpg" alt="" class="object-cover w-full aspect-2/1 rounded-xl bg-hot-pink">
+                <img src="{{ image }}" alt="{{ image:alt }}" class="object-cover w-full aspect-2/1 rounded-xl bg-hot-pink">
             </div>
 
             <div class="max-w-4xl px-6 mx-auto md:px-16">
